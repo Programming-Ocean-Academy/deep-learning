@@ -1,4 +1,4 @@
-# 🌊 Deep Learning Generative Models Collection
+# 🌊 Deep Learning Collection
 
 Welcome to the **Programming Ocean Academy's Deep Learning Repository**! This project is a comprehensive educational suite showcasing a variety of **generative models** implemented with PyTorch, ranging from foundational architectures to modern, cutting-edge designs.
 
