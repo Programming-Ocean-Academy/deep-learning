@@ -47,7 +47,7 @@ transformers/
 ├── Transformer++/              # Architectural refinements
 ├── Utilities/                   # Tokenizers, training scripts, visualization
 └── README.md
-
+```
 ## 📑 Key Replicated Papers
 
 | Year | Paper                      | Authors                 | Highlights                                                |
