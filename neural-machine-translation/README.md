@@ -1,112 +1,111 @@
-# 🌍 Neural Machine Translation (NMT) Labs – PyTorch Replications
+# Neural Machine Translation (NMT) Labs – PyTorch Replications
 
-Welcome to the **Programming Ocean Academy – NMT Labs** repository.  
-This repo contains faithful **PyTorch replications of landmark NMT papers**, each structured as an educational lab with:
+Welcome to the Programming Ocean Academy NMT Labs repository.  
+This project provides faithful PyTorch replications of landmark neural machine translation (NMT) papers. Each lab notebook is structured for education and research purposes, offering:
 
-- 📄 **Paper summary** (abstract, problems, solutions, contributions)  
-- 🧩 **PyTorch replication** (training, evaluation, prediction, visualization)  
-- 📊 **Analysis** (loss curves, prediction quality, embedding visualizations)  
-- 🎓 **Academic insights** (takeaways, mathematical highlights, related works)  
+- Paper summary: abstract, problems, solutions, and key contributions  
+- PyTorch implementation: training, evaluation, prediction, and visualization  
+- Analysis: training dynamics, prediction quality, embedding visualizations  
+- Academic insights: theoretical takeaways, mathematical highlights, and related work  
 
 ---
 
-## 📚 Included Labs
+## Included Labs
 
 ### 1. [Sequence to Sequence Learning with Neural Networks (Sutskever et al., 2014)](https://arxiv.org/abs/1409.3215)
-- Introduced the **Seq2Seq** framework with encoder–decoder LSTMs.  
-- Solved phrase-based limitations in SMT.  
-- 🚀 PyTorch lab: train & test Seq2Seq on toy datasets.  
-- 🔎 Insights: importance of LSTMs for long-range dependencies.  
+- Introduced the Seq2Seq framework with encoder–decoder LSTMs.  
+- Overcame phrase-based SMT limitations.  
+- PyTorch lab: training and testing Seq2Seq on toy datasets.  
+- Insights: demonstrated the role of LSTMs in handling long-range dependencies.  
 
 ---
 
-### 2. [Learning Phrase Representations using RNN Encoder–Decoder for SMT (Cho et al., 2014)](https://arxiv.org/abs/1406.1078)
-- First **RNN Encoder–Decoder** model for translation.  
-- Introduced **gating mechanisms** (foundation for GRU).  
-- 🚀 PyTorch lab: replicate RNN encoder–decoder pipeline.  
-- 🔎 Insights: paved way for gated recurrent architectures.  
+### 2. [Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation (Cho et al., 2014)](https://arxiv.org/abs/1406.1078)
+- First RNN Encoder–Decoder model for machine translation.  
+- Introduced gating mechanisms, laying the foundation for GRUs.  
+- PyTorch lab: replication of the RNN encoder–decoder pipeline.  
+- Insights: initiated the development of gated recurrent architectures.  
 
 ---
 
 ### 3. [Long Short-Term Memory Networks for Machine Reading (Hochreiter & Schmidhuber, 1997; applied in NMT)](https://www.bioinf.jku.at/publications/older/2604.pdf)
-- Solved **vanishing gradients** with gating (input, forget, output).  
-- 🚀 PyTorch lab: implement and train LSTMs in translation tasks.  
-- 🔎 Insights: key for stable training of Seq2Seq models.  
+- Solved vanishing gradient problems through input, forget, and output gates.  
+- PyTorch lab: LSTM training applied to translation tasks.  
+- Insights: ensured stable learning and became the backbone of Seq2Seq.  
 
 ---
 
 ### 4. [Neural Machine Translation by Jointly Learning to Align and Translate (Bahdanau et al., 2015)](https://arxiv.org/abs/1409.0473)
-- Introduced **attention mechanism** in NMT.  
-- Solved fixed-length bottleneck of encoder.  
-- 🚀 PyTorch lab: implement additive (Bahdanau) attention.  
-- 🔎 Insights: foundation for modern attention-based architectures.  
+- Introduced the attention mechanism in NMT.  
+- Overcame encoder fixed-length bottlenecks.  
+- PyTorch lab: additive (Bahdanau) attention replication.  
+- Insights: established the foundation for all subsequent attention-based systems.  
 
 ---
 
-### 5. [Effective Approaches to Attention-based NMT (Luong et al., 2015)](https://arxiv.org/abs/1508.04025)
-- Introduced **global vs local attention** variants.  
-- Extended Bahdanau’s attention with multiplicative scoring.  
-- 🚀 PyTorch lab: implement Luong attention mechanisms.  
-- 🔎 Insights: improved alignment, stronger baselines for NMT.  
+### 5. [Effective Approaches to Attention-based Neural Machine Translation (Luong et al., 2015)](https://arxiv.org/abs/1508.04025)
+- Proposed global and local attention variants.  
+- Extended Bahdanau’s additive approach with multiplicative scoring.  
+- PyTorch lab: implementation of Luong attention models.  
+- Insights: achieved improved alignment and set stronger baselines.  
 
 ---
 
 ### 6. [On Using Very Large Target Vocabulary for Neural Machine Translation (Jean et al., 2015)](https://arxiv.org/abs/1412.2007)
-- Tackled **large vocabulary problem** with sampled softmax.  
-- 🚀 PyTorch lab: efficient training with large vocabularies.  
-- 🔎 Insights: improved scalability & robustness in NMT.  
+- Tackled the large vocabulary challenge using sampled softmax.  
+- PyTorch lab: training with efficient vocabulary handling.  
+- Insights: enabled scalability and robustness in large-scale NMT.  
 
 ---
 
 ### 7. [Google Neural Machine Translation (GNMT) (Wu et al., 2016)](https://arxiv.org/abs/1609.08144)
-- Introduced **GNMT system** (8-layer LSTMs + attention).  
-- Achieved **human-level quality** in many benchmarks.  
-- 🚀 PyTorch lab: simplified GNMT replication.  
-- 🔎 Insights: industrial-scale deployment lessons.  
+- Developed GNMT with deep stacked LSTMs and attention.  
+- Achieved near human-level translation quality.  
+- PyTorch lab: simplified GNMT pipeline replication.  
+- Insights: practical lessons from industrial-scale deployment.  
 
 ---
 
-### 8. [Google’s Multilingual NMT: Enabling Zero-Shot Translation (Johnson et al., 2016)](https://arxiv.org/abs/1611.04558)
-- One shared model for **many-to-many translations**.  
-- Introduced **target forcing tokens** (`<2es>`, `<2fr>`, etc).  
-- Enabled **zero-shot translation** (unseen pairs).  
-- 🚀 PyTorch lab: toy multilingual model with embedding visualization.  
-- 🔎 Insights: evidence of **emergent interlingua representations**.  
+### 8. [Google’s Multilingual Neural Machine Translation System: Enabling Zero-Shot Translation (Johnson et al., 2016)](https://arxiv.org/abs/1611.04558)
+- Proposed a single model for many-to-many translation.  
+- Introduced target forcing tokens such as `<2es>` or `<2fr>`.  
+- Enabled zero-shot translation between unseen language pairs.  
+- PyTorch lab: multilingual toy model with embedding visualization.  
+- Insights: evidence for emergent interlingua representations.  
 
 ---
 
 ### 9. [Attention Is All You Need (Vaswani et al., 2017)](https://arxiv.org/abs/1706.03762)
-- Introduced the **Transformer architecture**.  
-- Removed recurrence, relying entirely on **self-attention**.  
-- 🚀 PyTorch lab: implement mini-Transformer for NMT.  
-- 🔎 Insights: foundation for modern LLMs and GPT-family.  
+- Introduced the Transformer architecture, eliminating recurrence.  
+- Relied entirely on self-attention for sequence modeling.  
+- PyTorch lab: minimal Transformer replication for NMT tasks.  
+- Insights: laid the foundation for modern large language models.  
 
 ---
 
-## 🔬 Structure of Each Lab
+## Structure of Each Lab
 
-Each `.ipynb` notebook includes:
-1. **Abstract & Problem Statement**  
-2. **Proposed Solution & Methodology**  
-3. **Mathematical & Statistical Highlights**  
-4. **PyTorch Implementation (Training, Evaluation, Prediction)**  
-5. **Analysis (loss curves, predictions, embedding visualizations)**  
-6. **Academic Takeaways & Related Work**
-
----
-
-## 🎯 Purpose
-
-- Recreate the **evolution of NMT** (2014 → 2017 → beyond).  
-- Provide **hands-on PyTorch implementations** for learners.  
-- Serve as **educational companion labs** for AI/ML students, researchers, and practitioners.  
+Each Jupyter notebook follows a consistent structure:
+1. Abstract and problem statement  
+2. Proposed solution and methodology  
+3. Mathematical and statistical highlights  
+4. PyTorch implementation: training, evaluation, prediction  
+5. Analysis: loss curves, prediction quality, embedding visualization  
+6. Academic takeaways and related work  
 
 ---
 
-## 🚀 How to Use
+## Purpose
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/Programming-Ocean-Academy/deep-learning.git
-   cd deep-learning/neural-machine-translation
+- Document the evolution of NMT models from 2014 to 2017 and beyond  
+- Provide hands-on PyTorch implementations for learners and researchers  
+- Serve as a companion resource for studying the foundations of machine translation  
 
+---
+
+## How to Use
+
+Clone the repository:
+```bash
+git clone https://github.com/Programming-Ocean-Academy/deep-learning.git
+cd deep-learning/neural-machine-translation
