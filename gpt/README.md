@@ -126,6 +126,6 @@ For academic accuracy, please cite the original papers when using this repo:
 
 ## Maintainer
 
-Developed and curated by **Mohammed Fahd Abrah (Programming Ocean Academy)**,  
+Developed and curated by ** (Programming Ocean Academy)**,  
 with the goal of democratizing access to cutting-edge AI research and training resources.
 
