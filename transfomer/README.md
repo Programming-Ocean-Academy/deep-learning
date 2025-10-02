@@ -1,20 +1,20 @@
-# 🧠 Transformers: From *Attention Is All You Need* to Foundation Models (2017–2025)
+#  Transformers: From *Attention Is All You Need* to Foundation Models (2017–2025)
 
-Welcome to the **Transformer Replication Labs** of the **Programming Ocean Academy** 🌊  
+Welcome to the **Transformer Replication Labs** of the **Programming Ocean Academy**  
 This repository is a **pedagogical and experimental collection** tracing the evolution of Transformer-based models — from the 2017 breakthrough paper to today’s multimodal foundation giants.
 
 ---
 
-## 📘 What This Repo Offers
+##  What This Repo Offers
 
-- ✅ **Faithful replications** of major Transformer papers  
-- 🧑‍🏫 **Clean PyTorch implementations** designed for education and experimentation  
-- 📊 **Training, evaluation, and visualization** pipelines  
-- 🔭 **Historical perspective** on how attention reshaped AI — in NLP, CV, and multimodal learning
+-  **Faithful replications** of major Transformer papers  
+-  **Clean PyTorch implementations** designed for education and experimentation  
+-  **Training, evaluation, and visualization** pipelines  
+-  **Historical perspective** on how attention reshaped AI — in NLP, CV, and multimodal learning
 
 ---
 
-## 📖 Background: Why Transformers Changed Everything
+##  Background: Why Transformers Changed Everything
 
 Before 2017, sequence modeling relied heavily on **RNNs** (LSTM, GRU) and **CNNs** (ConvS2S). These architectures struggled with:
 
@@ -24,7 +24,7 @@ Before 2017, sequence modeling relied heavily on **RNNs** (LSTM, GRU) and **CNNs
 
 Then came the game-changer:
 
-### ✨ *Attention Is All You Need* (Vaswani et al., 2017)
+###  *Attention Is All You Need* (Vaswani et al., 2017)
 
 - Replaced recurrence/convolutions with **multi-head self-attention**  
 - Introduced **positional encoding** and **layer normalization**  
@@ -33,9 +33,9 @@ Then came the game-changer:
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
-```
+
 transformers/
 ├── AttentionIsAllYouNeed/       # Original Transformer replication
 ├── BERT/                        # Bidirectional encoding (Devlin et al.)
@@ -47,8 +47,8 @@ transformers/
 ├── Transformer++/              # Architectural refinements
 ├── Utilities/                   # Tokenizers, training scripts, visualization
 └── README.md
-```
-## 📑 Key Replicated Papers
+
+##  Key Replicated Papers
 
 | Year | Paper                      | Authors                 | Highlights                                                |
 |------|----------------------------|-------------------------|-----------------------------------------------------------|
@@ -64,11 +64,11 @@ transformers/
 
 ---
 
-## 🔬 Methodology
+##  Methodology
 
 Each notebook follows a **pedagogical development cycle**:
 
-### 🔢 Mathematical Foundations
+###  Mathematical Foundations
 
 - **Self-Attention**  
   \[
@@ -82,7 +82,7 @@ Each notebook follows a **pedagogical development cycle**:
 
 ---
 
-### 🧰 Implementation
+###  Implementation
 
 - PyTorch-first, clean, modular code  
 - Core components: `MultiHeadAttention`, `EncoderBlock`, `TransformerEncoder`  
@@ -90,7 +90,7 @@ Each notebook follows a **pedagogical development cycle**:
 
 ---
 
-### 📈 Evaluation
+###  Evaluation
 
 - **BLEU** — Translation performance  
 - **Accuracy** — Classification models  
@@ -98,7 +98,7 @@ Each notebook follows a **pedagogical development cycle**:
 
 ---
 
-### 🔎 Visualization
+###  Visualization
 
 - Attention heatmaps  
 - Token-level saliency maps  
@@ -106,16 +106,16 @@ Each notebook follows a **pedagogical development cycle**:
 
 ---
 
-## 📊 Results Snapshot
+##  Results Snapshot
 
-- 🚀 Transformer (2017) achieves **SOTA BLEU** on WMT’14 En–De & En–Fr  
-- 💬 GPT-3 enables **few-shot and in-context learning**  
-- 🧠 BERT pretraining creates **universal NLP representations**  
-- 🖼️ ViT competes with or exceeds **ResNet** on ImageNet  
+-  Transformer (2017) achieves **SOTA BLEU** on WMT’14 En–De & En–Fr  
+-  GPT-3 enables **few-shot and in-context learning**  
+-  BERT pretraining creates **universal NLP representations**  
+-  ViT competes with or exceeds **ResNet** on ImageNet  
 
 ---
 
-## 🌍 Impact & Legacy
+##  Impact & Legacy
 
 Transformers are now the **core infrastructure of modern AI** across domains:
 
@@ -129,13 +129,15 @@ Transformers are now the **core infrastructure of modern AI** across domains:
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 Clone the repo and install dependencies:
 
+git clone https://github.com/Programming-Ocean-Academy/deep-learning/transformers
+cd transformers
 pip install -r requirements.txt
 
-## 📚 References
+##  References
 
 - Vaswani et al. (2017) — *Attention Is All You Need*  
 - Devlin et al. (2019) — *BERT*  
@@ -145,22 +147,21 @@ pip install -r requirements.txt
 - Raffel et al. (2020) — *T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer*  
 - Touvron et al. (2023) — *LLaMA: Open and Efficient Foundation Models*
 
-🗂️ *See [`docs/related_work.md`](docs/related_work.md) for the full list of papers.*
+ *See [`docs/related_work.md`](docs/related_work.md) for the full list of papers.*
 
 ---
 
-## ✨ Mission
+##  Mission
 
 This repository is both a **research chronicle** and an **educational playground**.
 
 We aim to:
 
-- 🔍 Demystify attention mechanisms and Transformer architecture  
-- 🧠 Provide clear, first-principles implementations  
-- 🚀 Empower learners and researchers to build on these foundations  
+-  Demystify attention mechanisms and Transformer architecture  
+-  Provide clear, first-principles implementations  
+-  Empower learners and researchers to build on these foundations  
 
 ---
 
-👩‍🏫 **Programming Ocean Academy** — *Teaching AI by Recreating Its History*  
+ **Mohammed Fahd Abrah** — *Teaching AI by Recreating Its History*  
 **Replicate. Understand. Extend.** 🔨🤖🔧
-
