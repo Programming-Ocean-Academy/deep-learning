@@ -162,6 +162,5 @@ We aim to:
 -  Empower learners and researchers to build on these foundations  
 
 ---
-
- **Mohammed Fahd Abrah** — *Teaching AI by Recreating Its History*  
-**Replicate. Understand. Extend.** 🔨🤖🔧
+*Teaching AI by Recreating Its History*  
+**Replicate. Understand. Extend.** 
