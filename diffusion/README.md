@@ -1,4 +1,4 @@
-# 🌌 Diffusion Models Repository
+#  Diffusion Models Repository
 *A Didactic and Research-Oriented Collection of Diffusion Model Replications*
 
 Welcome to the **Programming Ocean Academy’s diffusion playground**.  
@@ -6,17 +6,17 @@ This repository brings together **replications**, **didactic notebooks**, and **
 
 ---
 
-## 📖 Motivation
+##  Motivation
 Diffusion models have rapidly become the **state-of-the-art** in generative modeling, surpassing GANs and autoregressive approaches in **visual fidelity** and **scalability**.  
 Our mission is to:
 
-- 📚 **Teach** diffusion models through clear, didactic replications.  
-- 🔬 **Replicate** landmark papers faithfully in PyTorch.  
-- 🚀 **Experiment** with extensions, simplifications, and new ideas.  
+-  **Teach** diffusion models through clear, didactic replications.  
+-  **Replicate** landmark papers faithfully in PyTorch.  
+-  **Experiment** with extensions, simplifications, and new ideas.  
 
 ---
 
-## 🗂 Repository Structure
+##  Repository Structure
 Each notebook is structured like a mini research paper replication:
 
 - **Abstract & Motivation** – why the paper matters.  
@@ -28,30 +28,30 @@ Each notebook is structured like a mini research paper replication:
 
 ---
 
-## 📑 Contents
+##  Contents
 
-### 🔹 Core Replications
+###  Core Replications
 - A Concise Implementation of *Denoising Diffusion Probabilistic Models (DDPM)* – Ho et al. (2020)  
 - DDPM from Scratch – full PyTorch pipeline, clean and minimal  
 - ReproDDIM – Song et al. (2021), deterministic sampling for faster inference  
 - ReproLDM – *Latent Diffusion Models* (Rombach et al., 2022), high-resolution synthesis  
 
-### 🔹 Advanced Architectures
+###  Advanced Architectures
 - Diffusion Transformers in Practice – replication of *Scalable Diffusion Models with Transformers (DiT)*, Peebles & Xie (2022)  
 - ReproDiffusionGAN – combining GAN objectives with diffusion  
 - Mini Palette – replication of *Palette: Image-to-Image Diffusion Models* (Saharia et al., 2022)  
 
-### 🔹 Didactic / Analytic Explorations
+###  Didactic / Analytic Explorations
 - Mini AnalyticDPM – didactic replication of *Analytic-DPM* (Bao et al., 2022)  
 - Fashion Diffusion – crafting clothing designs with denoising diffusion  
 - ReproDiffusionLab – exploratory replication of *Deep Unsupervised Learning using Nonequilibrium Thermodynamics* (Sohl-Dickstein et al., 2015)  
 
-### 🔹 Checkpoints
+### Checkpoints
 - Pretrained checkpoints: **MNIST**, **FashionMNIST**, **CIFAR-10**  
 
 ---
 
-## 📚 Key Papers Covered
+##  Key Papers Covered
 - Sohl-Dickstein et al. (2015) – *Deep Unsupervised Learning using Nonequilibrium Thermodynamics*  
 - Ho et al. (2020) – *Denoising Diffusion Probabilistic Models (DDPM)*  
 - Song et al. (2021) – *Score-Based Generative Models*; **DDIM**  
@@ -63,7 +63,7 @@ Each notebook is structured like a mini research paper replication:
 
 ---
 
-## 🎯 Educational Goals
+##  Educational Goals
 This repo is more than just code: it’s a **learning journey**.  
 Each notebook is written with:  
 
@@ -73,6 +73,6 @@ Each notebook is written with:
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 Instructions for environment setup, training, and sampling are provided in the repository.
 
