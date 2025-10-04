@@ -1,4 +1,4 @@
-# 🧠 Meta-Learning Labs
+#  Meta-Learning Labs
 
 ![Meta-Learning](https://img.shields.io/badge/AI-Meta--Learning-blueviolet?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.9+-yellow?style=for-the-badge&logo=python)
@@ -6,23 +6,23 @@
 
 ---
 
-## 📖 Overview
+##  Overview
 **Meta-Learning** — often called *learning to learn* — is a rapidly growing field in AI focused on enabling models to generalize from limited data. Instead of relying on massive labeled datasets, meta-learning systems are trained through episodic tasks, building the ability to adapt quickly to new environments, modalities, and problem domains.
 
 This repository, **`met-learning`**, is designed as a **living collection of labs, experiments, and educational projects** covering the wide spectrum of meta-learning approaches. From **Few-Shot Learning (FSL)** with Prototypical Networks and Matching Networks, to **meta-optimization**, **gradient-based adaptation (MAML)**, and **Transformer-based meta-learners**, this repo will grow into a comprehensive playground for research and applied exploration.
 
 ---
 
-## ✨ Goals
-- 🧩 Provide **modular labs** exploring different meta-learning algorithms.  
-- 📊 Benchmark models across **synthetic tasks, computer vision, NLP, and audio**.  
-- 🩺 Demonstrate **real-world applications** in healthcare, low-resource AI, and adaptive systems.  
-- 🎓 Serve as an **educational resource** for students, engineers, and researchers.  
-- 🔬 Support **future contributions** with reusable pipelines, datasets, and evaluation tools.  
+##  Goals
+-  Provide **modular labs** exploring different meta-learning algorithms.  
+-  Benchmark models across **synthetic tasks, computer vision, NLP, and audio**.  
+-  Demonstrate **real-world applications** in healthcare, low-resource AI, and adaptive systems.  
+-  Serve as an **educational resource** for students, engineers, and researchers.  
+-  Support **future contributions** with reusable pipelines, datasets, and evaluation tools.  
 
 ---
 
-## 🏗️ Repository Structure (Growing Roadmap)
+##  Repository Structure (Growing Roadmap)
 ```
 meta-learning/
 │
@@ -44,7 +44,7 @@ meta-learning/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 ```bash
 # Clone this repo
 git clone https://github.com/your-username/met-learning.git
@@ -56,7 +56,7 @@ pip install -r requirements.txt
 # Run an example lab (e.g., Few-Shot Learning)
 python train.py --ways 5 --shots 5 --epochs 20
 
-📦 Core Dependencies
+ Core Dependencies
 
 Python 3.9+
 
@@ -82,15 +82,15 @@ Transformer-based Meta-Learners: Meta-Transformers, cross-task adaptation.
 
 Applications: low-resource NLP, medical audio, vision tasks, reinforcement learning.
 
-📊 Vision
+ Vision
 
 This repository is meant to evolve into a comprehensive atlas of meta-learning — blending educational clarity with research-grade implementations. Each lab will be documented with explanations, math, and visualizations, serving both as a teaching tool and a research sandbox.
 
-🤝 Contributing
+ Contributing
 
 Contributions are welcome! Whether it’s fixing a bug, adding a new algorithm, or documenting a lab, feel free to open a PR. Let’s build the ultimate meta-learning hub together.
 
-📖 Citation
+ Citation
 
 If you find this repo useful for your research or learning, please cite:
 
@@ -101,7 +101,7 @@ If you find this repo useful for your research or learning, please cite:
   url     = {https://github.com/your-username/met-learning}
 }
 
-✅ Essence
+ Essence
 
 met-learning is not just a repository — it’s a playground for the future of adaptive AI. By collecting, explaining, and experimenting with meta-learning methods across domains, this repo aims to bridge research, practice, and education in one evolving ecosystem.
 
