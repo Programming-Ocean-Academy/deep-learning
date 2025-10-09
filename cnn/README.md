@@ -1,13 +1,13 @@
-# 🧠 Convolutional Neural Networks (CNN) — Replication Labs
+#  Convolutional Neural Networks (CNN) — Replication Labs
 
-Welcome to the **CNN Collection** of the **Programming Ocean Academy** 🌊  
+Welcome to the **CNN Collection** of the **Programming Ocean Academy**   
 This repository offers a **didactic atlas** of convolutional architectures — from the early days of LeNet to hybrid Conv-Transformer models in 2025.
 
 Our philosophy: **learn by replicating history**. Each notebook is a hands-on reproduction of a seminal CNN paper — connecting **theory → PyTorch code → results**.
 
 ---
 
-## 📚 Historical Context: CNNs (1997 → 2025)
+##  Historical Context: CNNs (1997 → 2025)
 
 Convolutional Neural Networks have **revolutionized computer vision**, enabling AI to see and understand pixels. This collection chronicles their **milestones**:
 
@@ -52,11 +52,11 @@ Convolutional Neural Networks have **revolutionized computer vision**, enabling 
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 Each notebook is a **self-contained lab**: mathematical background, PyTorch implementation, and reproducible experiments.
 
-### 🔬 Core CNN Replications
+###  Core CNN Replications
 
 | Notebook | Description |
 |----------|-------------|
@@ -69,7 +69,7 @@ Each notebook is a **self-contained lab**: mathematical background, PyTorch impl
 
 ---
 
-### ⚡ Advanced CNN Variants
+###  Advanced CNN Variants
 
 | Notebook | Description |
 |----------|-------------|
@@ -83,7 +83,7 @@ Each notebook is a **self-contained lab**: mathematical background, PyTorch impl
 
 ---
 
-### 🧪 Exploratory & Modern Labs
+###  Exploratory & Modern Labs
 
 | Notebook | Description |
 |----------|-------------|
@@ -93,17 +93,17 @@ Each notebook is a **self-contained lab**: mathematical background, PyTorch impl
 
 ---
 
-## 🧭 Suggested Learning Path
+##  Suggested Learning Path
 
-1. ✅ **Start Simple**: `Intro CNN`, `MiniAlexNet`, `MicroVGGNet`  
-2. 🔁 **Go Deeper**: `Mini-InceptNet`, `ResNet`, `DenseNet`  
-3. ⚙️ **Explore Efficiency**: `MobileNet`, `SqueezeNet`, `EfficientNet`  
-4. 🔍 **Add Attention**: `SENet`, `ConvTransformer`, `Capsule Networks`  
-5. 🧠 **Go Modern**: Vision Transformers, hybrids, and counting networks
+1.  **Start Simple**: `Intro CNN`, `MiniAlexNet`, `MicroVGGNet`  
+2.  **Go Deeper**: `Mini-InceptNet`, `ResNet`, `DenseNet`  
+3.  **Explore Efficiency**: `MobileNet`, `SqueezeNet`, `EfficientNet`  
+4.  **Add Attention**: `SENet`, `ConvTransformer`, `Capsule Networks`  
+5.  **Go Modern**: Vision Transformers, hybrids, and counting networks
 
 ---
 
-## 🔗 Key References
+##  Key References
 
 - LeCun, Y. et al. (1998). *Gradient-Based Learning Applied to Document Recognition*  
 - Krizhevsky, A. et al. (2012). *ImageNet Classification with Deep Convolutional Neural Networks*  
@@ -118,16 +118,16 @@ Each notebook is a **self-contained lab**: mathematical background, PyTorch impl
 
 ---
 
-## 🎯 Vision
+##  Vision
 
 This is not just a repo. It’s a **learning platform** and **historical archive** of CNN progress.
 
-- 🔬 Understand design choices behind each architecture  
-- 📈 Compare performance, parameters, and efficiency  
-- 🧠 Get inspired to build the next generation of **hybrid models** combining **CNNs, RNNs, and Transformers**
+-  Understand design choices behind each architecture  
+-  Compare performance, parameters, and efficiency  
+-  Get inspired to build the next generation of **hybrid models** combining **CNNs, RNNs, and Transformers**
 
 ---
 
-✨ **Programming Ocean Academy: Teaching AI by Recreating Its History**  
-Replicate. Learn. Innovate. 🔨🤖🔧
+ **Programming Ocean Academy: Teaching AI by Recreating Its History**  
+Replicate. Learn. Innovate. 
 
