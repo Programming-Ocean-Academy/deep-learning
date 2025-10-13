@@ -1,11 +1,11 @@
-# 🔄 Recurrent Neural Networks (RNN) — Replication Labs
+#  Recurrent Neural Networks (RNN) — Replication Labs
 
 Welcome to the **Recurrent Neural Networks (RNN) Collection** by **Programming Ocean Academy** 🌊  
 A curated repository of **hands-on reproductions** of classic and modern RNN architectures — from the vanilla RNNs to attention-powered neural translation models.
 
 ---
 
-## 🧠 What’s Inside?
+##  What’s Inside?
 
 Each notebook in this collection is crafted to:
 
@@ -16,7 +16,7 @@ Each notebook in this collection is crafted to:
 
 ---
 
-## 📚 The RNN Landscape
+##  The RNN Landscape
 
 Recurrent Neural Networks (RNNs) have historically been the backbone of sequence modeling, enabling progress in:
 
@@ -27,58 +27,58 @@ Recurrent Neural Networks (RNNs) have historically been the backbone of sequence
 
 However, challenges like **vanishing gradients** sparked innovations:
 
-- 🧬 **LSTM** — Hochreiter & Schmidhuber (1997)  
-- 🔄 **GRU** — Cho et al. (2014)  
-- 🎯 **Attention & Seq2Seq** — Bahdanau et al., Sutskever et al. (2014)  
-- 🧭 **Neural Turing Machines**, **Pointer Networks**, and **ConvS2S**
+-  **LSTM** — Hochreiter & Schmidhuber (1997)  
+-  **GRU** — Cho et al. (2014)  
+-  **Attention & Seq2Seq** — Bahdanau et al., Sutskever et al. (2014)  
+-  **Neural Turing Machines**, **Pointer Networks**, and **ConvS2S**
 
 This collection rebuilds these breakthroughs step-by-step with a strong link to the **original papers**.
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
-### 🔬 Replication Labs — Notebook Summaries
+###  Replication Labs — Notebook Summaries
 
 - `Empirical_Replication_of_Gated_Recurrent_Neural_Networks_Comparative_Evaluation.ipynb`  
-  📊 Replicates Chung et al. (2014) — RNN vs LSTM vs GRU on sequential tasks  
+   Replicates Chung et al. (2014) — RNN vs LSTM vs GRU on sequential tasks  
 
 - `LSTM-SeqRepNet_A_Didactic_Reproduction_of_Hochreiter_&_Schmidhuber's_LSTM.ipynb`  
-  🧠 Reproduces the foundational LSTM model using PyTorch  
+   Reproduces the foundational LSTM model using PyTorch  
 
 - `RNN-TanhEvalNet_A_Reimplementation_of_Vanilla_Recurrent_Networks_for_Empirical_Baselines.ipynb`  
-  🔧 Minimal RNN baseline for controlled experiments  
+   Minimal RNN baseline for controlled experiments  
 
 - `Modeling_Long_Term_Dependencies_with_LSTM_A_PyTorch_Replication.ipynb`  
-  🔍 Explores LSTM's capacity for long-term memory  
+   Explores LSTM's capacity for long-term memory  
 
 - `Neural_Horizons_A_PyTorch_Replication_of_Recurrent_Continuous_Translation.ipynb`  
-  🌐 Pre-attention encoder–decoder translation models  
+   Pre-attention encoder–decoder translation models  
 
 - `Neural_Phrase_to_Phrase_Translation_A_PyTorch_Replication_of_RNN_Encoder-Decoder.ipynb`  
-  ✨ Phrase-level encoder–decoder sequence modeling  
+   Phrase-level encoder–decoder sequence modeling  
 
 - `ReproLuongNMT_A_PyTorch_Replication_of_Attention-Based_NMT.ipynb`  
-  🎯 Luong et al. (2015) — Local vs Global Attention  
+   Luong et al. (2015) — Local vs Global Attention  
 
 - `ReproSeq2SeqAttn_A_PyTorch_Replication_of_Bahdanau_Attention.ipynb`  
-  🎯 Additive attention (Bahdanau et al.) — align and translate  
+   Additive attention (Bahdanau et al.) — align and translate  
 
 - `Convolutional_Sequence_to_Sequence_Translation_A_PyTorch_Replication_of_Fairseq_ConvS2S.ipynb`  
-  🧱 ConvS2S — sequence modeling without recurrence  
+   ConvS2S — sequence modeling without recurrence  
 
 - `Coverage_Augmented_Neural_Machine_Translation_A_PyTorch_Replication.ipynb`  
-  🛡️ Coverage attention for reducing over-translation (Tu et al.)  
+   Coverage attention for reducing over-translation (Tu et al.)  
 
 - `Hands_On_Replication_of_Neural_Turing_Machines_Copy_Task_in_PyTorch.ipynb`  
-  🧠 Differentiable memory with Neural Turing Machines  
+   Differentiable memory with Neural Turing Machines  
 
 - `Hands_On_Replication_of_Pointer_Networks_Learning_to_Point_with_Attention.ipynb`  
-  📍 Pointer Networks — solving combinatorial problems via RNNs  
+   Pointer Networks — solving combinatorial problems via RNNs  
 
 ---
 
-## 🔗 Key Papers Reproduced
+##  Key Papers Reproduced
 
 - Hochreiter & Schmidhuber (1997) — *Long Short-Term Memory*  
 - Pascanu et al. (2012) — *On the Difficulty of Training RNNs*  
@@ -93,16 +93,16 @@ This collection rebuilds these breakthroughs step-by-step with a strong link to 
 
 ---
 
-## 🎯 Goals of This Collection
+##  Goals of This Collection
 
-- 🧭 Build a **living roadmap** of RNN research via PyTorch implementations  
-- 🧠 Bridge **theory ↔ equations ↔ code ↔ results**  
-- 🎓 Provide **teaching labs** for instructors and self-learners  
-- 🔬 Enable **reproducible benchmarks** for research
+-  Build a **living roadmap** of RNN research via PyTorch implementations  
+-  Bridge **theory ↔ equations ↔ code ↔ results**  
+-  Provide **teaching labs** for instructors and self-learners  
+-  Enable **reproducible benchmarks** for research
 
 ---
 
-## 🧾 References
+##  References
 
 - Chung, J. et al. (2014). *Empirical Evaluation of Gated RNNs on Sequence Modeling*. arXiv:1412.3555  
 - Hochreiter, S., & Schmidhuber, J. (1997). *Long Short-Term Memory*. Neural Computation  
@@ -112,7 +112,7 @@ This collection rebuilds these breakthroughs step-by-step with a strong link to 
 
 ---
 
-✨ **From early RNNs to attention-powered translation, this lab brings the full arc of sequential modeling to your fingertips.**  
-Let’s replicate, learn, and innovate together! 🔨🤖🔧
+ **From early RNNs to attention-powered translation, this lab brings the full arc of sequential modeling to your fingertips.**  
+Let’s replicate, learn, and innovate together! 
 
 
