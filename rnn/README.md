@@ -1,6 +1,6 @@
 #  Recurrent Neural Networks (RNN) — Replication Labs
 
-Welcome to the **Recurrent Neural Networks (RNN) Collection** by **Programming Ocean Academy** 🌊  
+Welcome to the **Recurrent Neural Networks (RNN) Collection**
 A curated repository of **hands-on reproductions** of classic and modern RNN architectures — from the vanilla RNNs to attention-powered neural translation models.
 
 ---
